@@ -1,0 +1,62 @@
+
+/* Set the background color of the grid */
+#grid-pane {
+    -fx-background-color: #eaeaea; /* Replace with your desired background color */
+}
+
+/* Style the labels */
+.label {
+    -fx-text-fill: #333333; /* Label text color */
+    -fx-font-size: 14px; /* Label font size */
+}
+
+/* Style the text fields */
+.text-field {
+    -fx-background-color: #ffffff; /* Text field background color */
+    -fx-border-color: #cccccc; /* Text field border color */
+    -fx-border-width: 1px; /* Text field border width */
+    -fx-font-size: 14px; /* Text field font size */
+}
+
+/* Style the buttons */
+.button {
+    -fx-background-color: #4d4d4d; /* Button background color */
+    -fx-text-fill: #ffffff; /* Button text color */
+    -fx-font-size: 14px; /* Button font size */
+}
+.button:hover {
+    -fx-background-color: darkgrey;
+}
+
+/* Style the table view */
+.table-view {
+    -fx-background-color: #ffffff; /* Table view background color */
+    -fx-table-cell-border-color: #cccccc; /* Table view cell border color */
+    -fx-font-size: 14px; /* Table view font size */
+}
+
+/* Style the table view columns */
+.table-column {
+    -fx-alignment: CENTER; /* Center-align the content of table columns */
+}
+
+
+
+
+#grid-pane{
+    -fx-background-image: url("picture.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+.my-label{
+	-fx-font-size: 20px;
+	-fx-text-fill: #621b1d;
+	-fx-font-weight: bold; 
+}
+
+#my-label1{
+	-fx-font-size: 13px;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-weight: bold; 
+}
